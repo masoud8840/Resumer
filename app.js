@@ -9,7 +9,7 @@ function BurnDate() {
 }
 function IntroduceMyself(timeout) {
   let intervalCount = 0;
-  let word = "Web Developer.";
+  let word = "Web Developer";
   let wordArr = word.split("");
   let arrLength = wordArr.length;
   let txtSpan = document.querySelector(".title-intro span");
